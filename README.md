@@ -5,7 +5,7 @@ Olá pra você que escolheu esse repositório! Nessa repositório você vai enco
 ## [🛠Assistir](https://www.youtube.com/watch?v=3R7QtNcwE3c)
 ## [⚠Me Ajude](https://www.youtube.com/channel/UCxKIsX5OXyyNWVmomuDc-LA?sub_confirmation=1)
 # Preview
-! [ ubuntu ] (https://raw.githubusercontent.com/paulo7952/site-simples-com-html-e-css-/refs/heads/main/images.jfif)
+![ubuntu](https://raw.githubusercontent.com/paulo7952/site-simples-com-html-e-css-/refs/heads/main/images.jfif)
 
 
 COMO FAZER UM SCRIPT EM HTML PARA INSTALAÇÃO E CONFIGURACÃO DO APACH:
