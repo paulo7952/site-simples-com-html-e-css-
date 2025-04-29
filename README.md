@@ -59,6 +59,20 @@ sudo a2ensite meusite.conf
 
 # 9. Reiniciar Apache
 sudo systemctl restart apache2
-
 echo "Configuração concluída!"
 echo "Agora você pode acessar seu site digitando apenas 'meusite' no navegador"
+
+# 10 instalação do webmin:
+para poder baixar o wwbmin pelo terminal, primeiramente você deve alterar as configurações de rede.
+altere a rede para um metodo IPV4 para DNS automatico.
+em DNS coloque o IP: 192.168.0.10
+wget https://www.webmin.com/download/deb/webmin-current.deb
+sudo dpkg -i webmin-current.deb
+sudo apt -f install "para corrigis as falhas"
+para deixar tudo com  estava antes, novamente altere as configurações de rede
+mudando o metodo IPV4 para manual e faça as seguintes alterações:
+IP: 192.168.0.10
+MASCARA: 255.255.255.0
+GATEWAY: 192.168.0.1
+Ligue e desligue a rede
+de o comando: ip a para checar as informações.
